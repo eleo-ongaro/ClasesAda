@@ -1,0 +1,21 @@
+{
+    "vscode-pets.petSize": "large",
+    "vscode-pets.position": "explorer",
+    "vscode-pets.petColor": "yellow",
+    "vscode-pets.throwBallWithMouse": true,
+    "typescript.suggest.paths": false,
+    "javascript.suggest.paths": false,
+    "rainbowTags.allowEverywhere": true,
+    "rainbowTags.hightlightType": "border",
+    "rainbowTags.supportedLanguages": [
+        "html",
+        "php",
+        "twig",
+        "blade",
+        "smarty",
+        "xml",
+        "vue",
+        "js",
+        "css"
+    ]
+}
