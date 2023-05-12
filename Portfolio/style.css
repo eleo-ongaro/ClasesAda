@@ -1,8 +1,161 @@
+/* PALETA POSIBLE:
+
+#ffff7a
+#e3da93 amarillo pastel
+#8dd6dc verdecito
+#469283 verde mas obscuro
+#e376df lila3
+#dd91dd lila2
+#daadda lila1
+#d8b3d9 rosa pastel
+#b14c8b rosa viejo obscuro */
+
+/* FUENTES
+
+font-family: 'Comforter', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Reenie Beanie', cursive;
+font-family: 'Zeyada', cursive;
+*/
+
 body{
-    background-color: #95c68f;
+    background-color: #ffff7a;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
-.IArayas {
+/* NAV BAR */
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+nav{
+    background-color: #ffff7a;
+    margin-right: 20px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    border-bottom: 1px solid #f0db50;
+    -webkit-box-shadow: 0px 9px 20px 0px rgba(245,226,81,1);
+-moz-box-shadow: 0px 9px 20px 0px rgba(245,226,81,1);
+box-shadow: 0px 9px 20px 0px rgba(245,226,81,1);
+}
+
+.ul-nav{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.li-nav{
+    margin-left: 20px;
+    padding: 5px;
+    align-items: center;
+    font-size: 1rem;
+}
+
+/* LISTS */
+ul {
+    list-style: none;
+}
+main{
+    margin: 2rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* welcome */
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+}
+h2{
+    font-family: 'Zeyada', cursive;
+    font-size: 2rem;
+}
+
+p{
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 2rem;
+}
+
+.welcome{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+
+}
+
+/* RETRATO */
+.retrato-box{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: #ffff7a 0px 0px 0px 3px, #8dd6dc 0px 0px 0px 6px, #b14c8b 0px 0px 0px 9px, #e376df 0px 0px 0px 12px, #dd91dd 0px 0px 0px 15px;
+}
+
+.retrato {
+    width: 400px;
+    height: 400px;
+    object-position: center;
+    object-fit: cover;
+}
+
+/* RETRATO2: NO ME COPA ESE BORDE. Q OTRAS FORMAS HAY Q NO SEAN CUDRADAS, SINO MAS NATURALES, FLUIDAS?
+.retrato2 { 
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+ */
+
+/* CONOCIMIENTOS */
+.fa-html5{
+    color: #e54d2b;
+}
+
+.fa-css3-alt{
+    color: #478fc7;
+}
+
+.fa-sass{
+    color: #cc6699;
+}
+
+.fa-square-js{
+    color: #f0db50;
+
+}
+
+.fa-react{
+    color: #6ddafb;
+}
+
+.fa-git-alt{
+    color: #e74d2b;
+}
+
+.knowledge-list{
+    font-size: 25rem;
+}
+
+/*  QUOTE */
+.chat-bubble {
     width: 40%;
-    border-radius: 50%50%;
+}
+
+/* CONTROLADOR DE GASTOS */
+
+.money{
+    width: 100%;
 }

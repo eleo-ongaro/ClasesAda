@@ -5,160 +5,227 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="./assets/dev.png">
-    <title>Document</title>
+    <link rel="icon" href="./assets/dev2.png">
+    <title>Dev Eleo</title>
+    <script src="https://kit.fontawesome.com/d2f0778e32.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Comforter&family=Reenie+Beanie&family=Zeyada&display=swap"
+        rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="listaNav">
-            <ul>
-                <li>
+        <nav class="listaNav">
+            <ul class="ul-nav">
+                <li class="li-nav">
                     Hola!
                 </li>
-                <li>
+                <li class="li-nav">
                     Conocimientos
                 </li>
-                <li>
+                <li class="li-nav">
                     Proyectos
                 </li>
-                <li>
+                <li class="li-nav">
                     Contactame!
                 </li>
             </ul>
-        </div>
+        </nav>
     </header>
 
-    <div>
-        <h2>Bienvenidxs!</h2>
-        <p>soy</p>
-        <h1>Dev</h1> <!-- en h1 por el SEO. cambiar mas adelante si es al pedo -->
-        <h2>Eleo</h2>
+    <main class="welcome"> <!-- MMM.. revisar -->
+        <div>
+            <h2>
+                Hola!
+            </h2>
+            <p>
+                soy
+            </p>
+            <h1>
+                Dev
+            </h1> <!-- en h1 por el SEO. cambiar mas adelante si es al pedo -->
+            <h2>
+                Eleo
+            </h2>
+            <p>Desarrolladora, guitarrista y fan de las matemáticas</p>
+        </div>
+    
+        <div class="retrato-box">
+            <img src="./assets/retratos/retrato1a.png" alt="foto retrato" class="retrato">
+            
+        </div>
+        <!--  <img src="./assets/retratos/retrato1.jpeg" alt="retrato 2" class="retrato2"> OJO Q ESTÁ AFUERA PORQUE SE SUPERPONEN -->
+        <div>
+            <a href="grilla"> <!-- poner url-->
+                Ésto hago
+            </a>
+        </div>
+    </main>
+    
+    <div class="knowledge">
+        <section>
+            <h2>
+                Mis Conocimientos
+            </h2>
+            <p>
+                Mirá mamá! Sé usar éstas tecnologías!
+            </p>
+            <div>
+
+                <div>
+                    <i class="fa-brands fa-html5 knowledge-list"></i>
+                    <span>
+                        HTML 5
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3-alt knowledge-list"></i>
+                    <span>
+                        CSS 3
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-brands fa-sass knowledge-list"></i>
+                    <span>
+                        SASS
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-brands fa-square-js knowledge-list"></i>
+                    <span>
+                        JavaScript
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-brands fa-react knowledge-list"></i>
+                    <span>
+                        React
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-brands fa-git-alt knowledge-list"></i>
+                    <span>
+                        Git
+                    </span>
+                </div>
+    
+            </div>
+        </section>
     </div>
 
-    <div>
-        <a href="grilla"> <!-- poner url-->
-            Ésto hago
-        </a> 
-    </div>
-    
-    <img class="IArayas" src="./assets/IArayas.jpeg" alt="foto retrato a rayas">
-    
-    <section>
-        <h2>Mis Conocimientos</h2>
-
+    <div class="quote">
+        <div>
+            <img src="./assets/chat.png" alt="burbuja de conversación  3d, con 3 círculos rosa dentro" class="chat-bubble">
+        </div>
         <p>
-            Mirá mamá! Sé usar éstas tecnologías!
+            insertar aquí alguna frase o cita piola
         </p>
-
-        <div>
-            <div>
-                <img src="./assets/HTML5_Badge.png" alt="logo HTML5">
-                <span>HTML 5</span>
-            </div>
-            <div>
-                <img src="./assets/CSS3_logo.svg.png" alt="logo CSS 3">
-                <span>CSS 3</span>
-            </div>
-            <div>
-                <img src="./assets/Sass_Logo.svg.png" alt="logo SASS">
-                <span>SASS</span>
-            </div>
-            <div>
-                <img src="./assets/javascript-1.svg" alt="logo JavaScript">
-                <span>JavaScript</span>
-            </div>
-            <div>
-                <img src="./assets/React-icon.svg.png" alt="logo React">
-                <span>React</span>
-            </div>
-            <div>
-                <img src="./assets/Git_icon.svg.png" alt="logo Git">
-                <span>Git</span>
-            </div>
-        </div>
-    </section>
-
-    <div>
-        <div>
-            <img src="./assets/chat.png" alt="burbuja de conversación  3d, con 3 círculos rosa dentro">
-        </div>
-
-        <p>insertar aquí alguna frase o cita piola</p>
-
     </div>
 
-    <section>
-        <h2>Mis Proyectos</h2>
-        <p>Mirá mamá las cosas copadas que vengo haciendo!</p>
+    <div class="proyect-list">
+        <section>
 
-        <div>
-            <img src="./assets/IArayas.jpeg" alt="">
-            <span>Portfolio</span>
-        </div>
-
-        <div>
-            <img src="./assets/generador-memes.png" alt="robot de juguete">
-            <span>Generador de memes</span>
-        </div>
-
-        <div>
-            <img src="./assets/match-3.png" alt="arcade">
-            <span>Match 3</span>
-        </div>
-
-        <div>
-            <img src="./assets/gastos.png" alt="billetera, calculadora y billetes">
-            <span>Controlador de gastos</span>
-        </div>
-
-        <div>
-            <img src="./assets/reuniones.png" alt="una choca sentad en un sillon, con una notebooh, y un calendario y reloj alrededor">
-            <span>Administrador de reuniones</span>
-        </div>
-
-        <div>
-            <img src="./assets/celular-desamblado.png" alt="celular desarmado en partes">
-            <img src="./assets/celular-qca.png" alt="celular con figuras al rededor, dando a entender que se pueden hacer cosas nuevas">
-            <span>Todo App</span>
-        </div>
-
-        <div>
-            <img src="./assets/pochoclo.png" alt="pochoclo">
-            <span>Buscador de películass</span>
-        </div>
-
-    </section>
+            <h2>
+                Mis Proyectos
+            </h2>
+            <p>
+                Mirá mamá las cosas copadas que vengo haciendo!
+            </p>
     
-    <section>
-        <h2>Contactame</h2>
-        <p>Te interesa mi trabajo? querés contactarme?
-            <br>Hace através de cualquiera de mis redes
+            <div>
+                <img src="./assets/retratos/retrato1.jpeg" alt="foto retrato a rayas" class="IArayas">
+                <span>
+                    Portfolio
+                </span>
+            </div>
+    
+            <div>
+                <img src="./assets/proyectos/generador-memes.png" alt="robot de juguete">
+                <span>
+                    Generador de memes
+                </span>
+            </div>
+    
+            <div>
+                <img src="./assets/proyectos/match-3.png" alt="arcade">
+                <span>
+                    Match 3
+                </span>
+            </div>
+    
+            <div>
+                <img src="./assets/proyectos/gastos.png" alt="billetera, calculadora y billetes" class="money">
+                <span>
+                    Controlador de gastos
+                </span>
+            </div>
+    
+            <div>
+                <img src="./assets/proyectos/reuniones.png"
+                    alt="una chica sentad en un sillon, con una notebooh, y un calendario y reloj alrededor">
+                <span>
+                    Administrador de reuniones
+                </span>
+            </div>
+    
+            <div>
+                <img src="./assets/proyectos/celular-desamblado.png" alt="celular desarmado en partes">
+                <span>
+                    Todo App
+                </span>
+            </div>
+    
+            <div>
+                <img src="./assets/proyectos/pochoclo.png" alt="pochoclo">
+                <span>
+                    Buscador de películas
+                </span>
+            </div>
+    
+        </section>
+    </div>
+
+    <section class="contact">
+        <h2>
+            Contactame
+        </h2>
+        <p>
+            Te interesa mi trabajo? querés contactarme?
+            <br>
+            Hacelo através de cualquiera de mis redes
         </p>
 
         <ul>
             <li>
+                <i class="fa-brands fa-linkedin-in"></i>
                 <a href="https://www.linkedin.com/in/eleo-ongaro/">
                     @eleo-ongaro
                 </a>
             </li>
             <li>
+                <i class="fa-brands fa-whatsapp"></i>
                 <a href="https://wa.me/2216542781">
                     WhatsApp
                 </a>
             </li>
             <li>
+                <i class="fa-brands fa-github"></i>
                 <a href="https://github.com/eleo-ongaro">
                     @eleo-ongaro
                 </a>
             </li>
             <li>
+                <i class="fa-regular fa-envelope"></i>
                 Mail
             </li>
         </ul>
     </section>
 
     <div>
-        <h2>Escribime</h2>
+        <h2>
+            Escribime
+        </h2>
         <!-- FORM -->
     </div>
 
@@ -183,21 +250,25 @@
     <div>
         <ul>
             <li>
+                <i class="fa-brands fa-linkedin-in"></i>
                 <a href="https://www.linkedin.com/in/eleo-ongaro/">
                     @eleo-ongaro
                 </a>
             </li>
             <li>
+                <i class="fa-brands fa-whatsapp"></i>
                 <a href="https://wa.me/2216542781">
                     WhatsApp
                 </a>
             </li>
             <li>
+                <i class="fa-brands fa-github"></i>
                 <a href="https://github.com/eleo-ongaro">
                     @eleo-ongaro
                 </a>
             </li>
             <li>
+                <i class="fa-regular fa-envelope"></i>
                 Mail
             </li>
         </ul>
