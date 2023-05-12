@@ -25,6 +25,31 @@ body{
     flex-direction: column;
 }
 
+h1{
+    font-family: 'Zeyada', cursive;
+    font-size: 2rem;
+}
+h2{
+    font-family: 'Zeyada', cursive;
+    font-size: 2rem;
+}
+
+p{
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 2rem;
+}
+
+span{
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 2rem;
+}
+
+li{
+    font-family: 'Zeyada', cursive;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
 /* NAV BAR */
 header {
     display: flex;
@@ -72,20 +97,6 @@ main{
 }
 
 /* welcome */
-
-h1{
-    font-family: 'Pacifico', cursive;
-    font-size: 2rem;
-}
-h2{
-    font-family: 'Zeyada', cursive;
-    font-size: 2rem;
-}
-
-p{
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 2rem;
-}
 
 .welcome{
     width: 100%;
@@ -158,4 +169,63 @@ p{
 
 .money{
     width: 100%;
+}
+
+/* CONTACT */
+
+.li-contact{
+    font-size: 2rem;
+}
+
+/* FOOTER */
+
+footer{
+    padding-right: 0;
+    margin-right: 0;
+    width: 100%;
+    height: 20%;
+    background-color: #f0db50;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px -5px 13px 1px rgba(232,210,67,1);
+    -moz-box-shadow: 0px -5px 13px 1px rgba(232,210,67,1);
+    box-shadow: 0px -5px 13px 1px rgba(232,210,67,1);
+}
+.contact-footer{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.ul-footer{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    ba
+}
+
+.li-footer{
+    padding-inline: 10%;
+    align-items: center;
+}
+
+.fa-linkedin-in{
+    font-size: 2rem;
+}
+
+.fa-whatsapp{
+    font-size: 2rem;
+}
+
+.fa-github{
+    font-size: 2rem;
+}
+
+.fa-envelope{
+    font-size: 2rem;
+    
 }
